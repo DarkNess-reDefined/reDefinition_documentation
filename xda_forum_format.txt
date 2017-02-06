@@ -18,7 +18,7 @@
 [/SIZE][/B]
 DarkNess reDefined offers features and stability to the core, The main focus of the team was to make a ROM with features that are required not just bloats being tons of features to keep you thinking what to use and what not to. Apart from features we habe keptin mind the stability of the system, After intense testing and positive user reviews we've finally decided to release the build.[/CENTER]
 
-[IMG]https://raw.githubusercontent.com/Darkness-reDefined/reDefinition_assets/graphics/redefinition_area.png[/IMG]
+[CENTER][IMG]https://raw.githubusercontent.com/Darkness-reDefined/reDefinition_assets/graphics/redefinition_area.png[/IMG][/CENTER]
 
 [B]Status Bar[/B]
 [HIDE]Status Bar Icons
@@ -121,7 +121,7 @@ Reboot and enjoy the power of Darkness !
 [/CENTER]
 
 
-[IMG]https://raw.githubusercontent.com/Darkness-reDefined/reDefinition_assets/graphics/our_git.png[/IMG]
+[B]Our Git:[/B]
 [COLOR=red][URL]https://github.com/DarkNess-reDefined[/URL][/COLOR]
 
 
@@ -135,7 +135,7 @@ DU Team
 AICP
 AOKP
 
-[IMG]https://raw.githubusercontent.com/Darkness-reDefined/reDefinition_assets/graphics/core_team.png[/IMG]
+[B]Our core team :[/B]
 - @AKabhishek
 - @DarkKnight6499
 - @kishanpatel19
