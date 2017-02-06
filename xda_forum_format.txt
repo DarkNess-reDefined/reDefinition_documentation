@@ -18,7 +18,7 @@
 [/SIZE][/B]
 DarkNess reDefined offers features and stability to the core, The main focus of the team was to make a ROM with features that are required not just bloats being tons of features to keep you thinking what to use and what not to. Apart from features we habe keptin mind the stability of the system, After intense testing and positive user reviews we've finally decided to release the build.[/CENTER]
 
-[COLOR=red][B][SIZE=6]reDefinition Arena : [/SIZE][/B][/COLOR]
+[IMG]https://raw.githubusercontent.com/Darkness-reDefined/reDefinition_assets/graphics/redefinition_area.png[/IMG]
 
 [B]Status Bar[/B]
 [HIDE]Status Bar Icons
@@ -109,11 +109,10 @@ Video Stabilization
 [B]System App Remover[/B]
 
 
-[CENTER][B][I][U][SIZE=6][COLOR=green][FONT=Impact]Downloads[/FONT][/COLOR][/SIZE][/U][/I][/B]
-[SIZE=4][B][URL='']DarkNess reDefined[/URL][/B][/SIZE][/CENTER]
+[CENTER][IMG]https://raw.githubusercontent.com/Darkness-reDefined/reDefinition_assets/graphics/downloads.png[/IMG][/CENTER]
 
 [CENTER]
-[B][SIZE=3][COLOR=Red]How to flash:[/COLOR][/SIZE][/B]
+[IMG]https://raw.githubusercontent.com/Darkness-reDefined/reDefinition_assets/graphics/how_to_flash.png[/IMG]
 Download the ROM and [URL='http://opengapps.org/'][B]Gapps[/B][/URL]
 Boot into recovery mode
 Wipe System/Data/Dalvik Cache/Cache
@@ -122,7 +121,7 @@ Reboot and enjoy the power of Darkness !
 [/CENTER]
 
 
-[B]Our git:[/B]
+[IMG]https://raw.githubusercontent.com/Darkness-reDefined/reDefinition_assets/graphics/our_git.png[/IMG]
 [COLOR=red][URL]https://github.com/DarkNess-reDefined[/URL][/COLOR]
 
 
@@ -136,7 +135,7 @@ DU Team
 AICP
 AOKP
 
-Our core team:
+[IMG]https://raw.githubusercontent.com/Darkness-reDefined/reDefinition_assets/graphics/core_team.png[/IMG]
 - @AKabhishek
 - @DarkKnight6499
 - @kishanpatel19
