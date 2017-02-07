@@ -1,2 +1,3 @@
-reDefinition_threadFormat :: 
-# Format for thread to post on forums like XDA, just to keep shit sane and unified
+reDefinition threadFormat
+-----
+# A thread format compatible with forums with the same styling as XDA, so threads can be uniform.
