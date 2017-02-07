@@ -11,16 +11,16 @@
 #							|    |__  |__/ |__  |    | |  / |__  |__/ 	#
 #                                         								#
 #########################################################################################################
-~DON'T USE THIS ASCII OF COURSE xD~  //Just to see if you can read//
+~DON'T USE THIS ASCII~  //Making sure you can read//
 
-[IMG]https://raw.githubusercontent.com/Darkness-reDefined/reDefinition_threadFormat/master/dnd.png[/IMG]
-[CENTER][B][SIZE=3]DarkNess reDefined-redefining the darkness in you !
+[CENTER][IMG]https://raw.githubusercontent.com/Darkness-reDefined/reDefinition_threadFormat/master/dnd.png[/IMG]
+[B][SIZE=3]DarkNess reDefined - reDefining the darkness within you.
 [/SIZE][/B]
-DarkNess reDefined offers features and stability to the core, The main focus of the team was to make a ROM with features that are required not just bloats being tons of features to keep you thinking what to use and what not to. Apart from features we habe keptin mind the stability of the system, After intense testing and positive user reviews we've finally decided to release the build.[/CENTER]
+DarkNess reDefined offers features and stability, to the very core. The main focus of the team was to make a ROM with features that are necessary; not just tons of bloat that makes you confused as to what to use. Apart from implementing features, we have kept in mind the stability of the system. After intense testing, and positive user reviews, we have finally decided to release this ROM.[/CENTER]
 
-[CENTER][IMG]https://raw.githubusercontent.com/Darkness-reDefined/reDefinition_assets/graphics/redefinition_area.png[/IMG][/CENTER]
+[CENTER][IMG]https://raw.githubusercontent.com/Darkness-reDefined/reDefinition_assets/graphics/redefinition_area.png[/IMG]
 
-[B]Status Bar[/B]
+[B]Status Bar Features[/B]
 [HIDE]Status Bar Icons
 SuperUser Indicator (Hide or Unhide Status Bar SU)
 Clock Style
@@ -38,7 +38,7 @@ Status Bar Slide Brightness Control
 Quick Pulldown
 Show seconds
 [/HIDE]
-[B]Notifications[/B]
+[B]Notification Controls[/B]
 [HIDE]
 Quick WiFi Toggle
 Quick BT toggle
@@ -46,7 +46,7 @@ Quick Battery toggle
 Disable Immersive Messages
 Force Expanded Notifications
 [/HIDE]
-[B]Buttons[/B]
+[B]Navigation Bar Controls[/B]
 [HIDE]Navigation Bar Enable/Disable
 Backlight Control
 Navigation Bar Layout Control
@@ -60,17 +60,17 @@ Back Button Customizations
 Volume Button Customizations
 Keyboard Cursor Control
 Playback Control[/HIDE]
-[B]Display[/B]
+[B]Display Features[/B]
 [HIDE]Live Display
 Double tap to wake/sleep
 Wake on Plug
 Daydream
 Font Size Control
 [/HIDE]
-[B]Lights[/B]
+[B]Notification Light Settings[/B]
 [HIDE]Battery Lights Customizations
 Notification Lights Customizations[/HIDE]
-[B]Sounds[/B]
+[B]Audio Features[/B]
 [HIDE]Sim 1/2 Ringtones
 Notification Tones
 Increasing Ring Volume
@@ -81,7 +81,7 @@ Camera Shutter Sound Enable/Disable[/HIDE]
 [B]Gestures[/B]
 [HIDE]
 Three Finger Swipe Screenshot[/HIDE]
-[B]Lock Screen[/B]
+[B]Lock Screen Customization[/B]
 [HIDE]
 Quick Unlock
 Double tap to sleep on lockscreen
@@ -90,13 +90,13 @@ Hide power menu on lockscreen
 Lock Screen Shortcuts
 Music Visualizer
 [/HIDE]
-[B]Animations[/B]
+[B]Animations Configurations[/B]
 [HIDE]
 Toast animations style
 AOKP animations
 ListView animations
 [/HIDE]
-[B]Camera[/B]
+[B]Camera Additions[/B]
 [HIDE]Denoise
 Saturation Adjustment
 Contrast Adjustment
@@ -106,28 +106,27 @@ ISO
 Skin Tone Enhancement
 Video Stabilization
 [/HIDE]
-[B]System App Remover[/B]
-
+[B]System App Remover[/B][/CENTER]
+[CENTER][HIDE]insert link here [/HIDE][/CENTER]
 
 [CENTER][IMG]https://raw.githubusercontent.com/Darkness-reDefined/reDefinition_assets/graphics/downloads.png[/IMG][/CENTER]
 
-[CENTER]
-[IMG]https://raw.githubusercontent.com/Darkness-reDefined/reDefinition_assets/graphics/how_to_flash.png[/IMG]
-Download the ROM and [URL='http://opengapps.org/'][B]Gapps[/B][/URL]
+[CENTER][HIDE]insert link here [/HIDE][/CENTER]
+
+[CENTER][IMG]https://raw.githubusercontent.com/Darkness-reDefined/reDefinition_assets/graphics/how_to_flash.png[/IMG]
+Download the ROM and download [URL='http://opengapps.org/'][B]GApps[/B][/URL]
 Boot into recovery mode
-Wipe System/Data/Dalvik Cache/Cache
-Flash [B]ROM[/B] and [B]Gapps[/B] zip file
-Reboot and enjoy the power of Darkness !
+Wipe System, Data, Dalvik/ART, and Cache.
+Flash the [B]ROM[/B] and [B]GApps[/B].
+Reboot and bask in the Darkness.
 [/CENTER]
 
 
 [B]Our Git:[/B]
 [COLOR=red][URL]https://github.com/DarkNess-reDefined[/URL][/COLOR]
 
-
-[B]Contributors and core team: [/B]
-[SIZE=2]
-LineageOS being base
+[B]Credits[/B]
+[SIZE=2] LineageOS (This is what the ROM is based on.)
 Resurrection Remix (RR)
 Slim Roms Team
 ParanoidAndroid Team
