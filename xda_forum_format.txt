@@ -40,8 +40,7 @@ Animations
 Force Expanded Notification
 Disable Immersive Mode Message
 Three Finger Screenshot
-Power + Volume Up to Start Screen Recording 
-Power + Volume Up to take Partial Screenshot
+Fingerprint authentication 
 [/HIDE][/COLOR][/SIZE]
 [COLOR="Blue"][SIZE="5"][B]Recent[/B][/SIZE][/COLOR]
 [SIZE="3"][COLOR="Navy"][HIDE]Hide Apps from Recent Panel[/HIDE][/SIZE][/COLOR]
