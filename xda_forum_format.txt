@@ -17,7 +17,9 @@ Thread Title : [ROM][7.1.1_r9][OFFICIAL] DarkNess reDefined [OMS/DUI]
 
 [CENTER][IMG]https://raw.githubusercontent.com/Darkness-reDefined/reDefinition_assets/templates/dnd.png[/IMG]
 [COLOR="Blue"][B][SIZE=5][CENTER]DarkNess reDefined[/CENTER]
-[CENTER] redefining the darkness in you ! [/CENTER]
+[CENTER] redefining the darkness in you !
+[URL="https://plus.google.com/u/0/communities/102951559675870137271"]Our G+ Page [/URL]
+[URL="https://telegram.me/DNDofficial"]Our official telegram group[/URL][/CENTER]
 [/SIZE][/B][/COLOR]
 [COLOR="Navy"][SIZE="3"]DarkNess reDefined offers features and stability to the core, The main focus of the team was to make a ROM with features that are required not just bloats being tons of features to keep you thinking what to use and what not to. Apart from features we habe keptin mind the stability of the system, After intense testing and positive user reviews we've finally decided to release the build.[/SIZE][/COLOR]
 
