@@ -1,0 +1,204 @@
+/*--build--*/
+
+* f72b057 (HEAD, m/n, dnd/n) releasetools: Generate recovery-from-boot.p with bsdiff if necessary
+* 1b86b76 dumpvar: Dump RECOVERY_VARIANT if not empty
+* 30e9e0d bacon: strip absolute PRODUCT_OUT path from md5sum file
+* e4377de Don't spam logcat
+* 93dfbd4 Revert "Add SuperSU to DND [2/2]"
+* 5f1d1c9 Do this but in a manner :p
+* 1e9f2d6 core: Fix unified trees with no TARGET_OTA_ASSERT_DEVICE
+* 1c7a5bd core: include libf2fs_fmt_host_dyn in otatools
+* 59dbc3d ota_from_target_files: Remove device dependent arguments
+* a00d889 releasetools: support reading release keys out of some sort of command
+* e9bc47a releasetools: Add script to sign zips
+* 4158329 Do not make browser .. !
+* bd56ec0 build sign_target_files_apks.py: clean tmp on exit
+* 39d16a4 Revert "build: Enable custom ccache cache dir for Android"
+*   fda020e Merge pull request #3 from Darkness-reDefined/test
+|\  
+| * 5bd3b10 build: support dnd device trees
+* | 4bb7ecc Add SuperSU to DND [2/2]
+|/  
+* 5ae982a Update & Add colors to the Makefile
+* e508c04 core: move platform-specific helper macros to target makefiles
+*   06ee9c9 Merge pull request #2 from dont-try-to-look-here/test
+|\  
+| * 8f47fd4 Merge tag 'android-7.1.1_r9' into DND
+| * f6c87fa build: Replace pushd with cd
+* | 632f454 build: Replace pushd with cd (#1)
+
+/*--vendor/dnd--*/
+
+* da65770 (HEAD, m/n, dnd/n) Create CHANGELOG.mkdn
+* 85d8a86 tasks: dt: add flag to optionally compress dt with lz4 Gotta save that space somehow. This is in the continuing   effort to remove custom mkbootimg.mk files in device trees
+* 72821f3 qcom: Permit dumpstate to run "ip xfrm policy"
+* 00219e9 LatinIME: re-add (fixed) Hungarian dictionary
+* 4deb85c cm: charger: Correct res_create_multi_display_surface() usage
+* 9f60606 Bring darkness to these devices
+* 68f4d0c Build About & OTA app
+* bf5d641 Remove cmte permission
+* 00f7cdc cm: overlay: Settings: Enable gesture settings
+* 2a1a39f apns: Remove differentiation between FreedomPop GSM APNs
+* 205d56a apns: Correct FreedomPop US LTE APN
+* 99948bf envsetup: Use GNU sed commands if GNU sed is detected
+* ff12839 apns: Add differentiation to FreedomPop Global GSM APN
+* 59a10c4 apns: Add FreedomPop US LTE sim APN
+* 85dd9a9 apns: Correct FreedomPop Global GSM APN
+* 9fc9a04 Remove Chromium
+* 0fdc45f Revert "build: kernel: build arm kernel modules with -fno-pic"
+* eb7a7c6 Revert "Add SuperSU to DND [1/2]"
+* b92d0bf Enable the Google Assistant on all devices.
+* 2ef9935 vendor: updates
+* d68b79d Remove unnecessary su system dependency
+* ddbef5d Bring the Darkness to Gemini!
+* f23a4eb Enable some packages
+* ef55fc1 Bring in Chromium
+* 09d04ff Remove Gello
+* 11a74f6 apns: Loop Wireless: defunct
+* 9923423 Update SuperSU to 2.79-SR3
+* 68857a6 apns: Add Freedompop foggmobile APN
+* 63c9a19 build: Append -dtb to kernel image name if TARGET_KERNEL_APPEND_DTB is set
+* 6b9a689 extract_utils: Detect output existence before moving it for backup
+* 50492d9 Sepolicy: Add perm for find cmstatusbar
+* c04066d overlay: Enable Visual Voicemail for Verizon devices
+* ab7aff6 build: kernel: build arm kernel modules with -fno-pic
+*   751cfee Merge pull request #4 from Darkness-reDefined/test
+|\  
+| * 49e5386 vendor: support dnd device trees
+* | 43ddcd7 Update SuperSU to 2.79-SR1 Change-Id: Ic3ca5ee03719fbdc873a5ba2f389d86a559149e9
+* | 6399b3c fix mismerge
+* | 76e7621 Add SuperSU to DND [1/2]
+|/  
+* f3a45cf More reDefining
+* 9b7e5dc Vendor: Improve build bash & Remove sepolicy entries of CM packages
+* 0c04203 Vendor - DU utils: Build utils library and add as boot jar
+* 3e2315f roomservice: Publish our name changes
+* 8e5b015 Cleanup
+*   3610a73 Merge branch 'n' of https://github.com/dont-try-to-look-here/android_vendor_dnd into n
+
+/*--packages/apps/Settings--*/
+
+* d3328c8 (HEAD, m/n, dnd/n) Hide broken stuffs
+* cb7e810 Cleanup some derps
+* 337fb01 Set external settings icon tint mode to SRC_ATOP
+* 2d5aad4 Settings updates
+* 893b664 Battery Saver Easy Toggle [2/2]
+* 1bbe3d6 Misc Fixes & Updates
+* e440607 Add DarkNess OTA
+* 4d1b45d Add Phh Superuser dashboard tile credit to @tsubus for his setting dashboard implementation
+* b63c02e Add Substratum dashboard tile
+* 3371f36 battery: Allow setting custom symbol near text on charging [2/2]
+* ccf21e6 Battery tile: allow to disable custom battery style [2/2]
+* c08dec7 Move Fingerprint authentication vibration to Ui
+* 3f8aa91 Settings: Launch default music player on headset connect
+* 0ee7c8b Settings: Add volume link notification switch
+* 57c7913 Move notif volume pref on top of increasing ring pref
+* d4aa02e [3/3] Settings: Add CMParts charging sound settings preference
+* 88b3bf8 Settings: Don't crash in SUW if no talkback service is installed
+* 91f5b3f Add summary to the reDefining Arena
+* d3cc21f Disable Dashboard Conditions [2/2]
+* 7b1eda8 Remove dashboard tile summaries [1/2]
+* b8fe447 Disable dashboard suggestions [2/2]
+* 1d1449f Ability to hide superuser status bar icon [2/2]
+* 2131ff1 Disable Lockscreen Media Art [2/2]
+* 7e4906d One handed mode toggle [3/3]
+* f109559 Fingerprint authentication vibration [2/2]
+* 0cfe0a8 Settings: Add volume link notification switch
+* 2e865cb Move notif volume pref on top of increasing ring pref
+* 23c9049 Settings: per-app cellular data and wifi restrictions
+* eb40503 Settings: Fix translations
+* 318f48b Allow restricted profiles on phones
+* a147cf3 Settings: Improve hotspot timeout strings
+* 50aa932 Settings: Let's get to choose keyboard again in Settings.
+* 09329c6 Settings: Expose bluetooth pin confirm dialog text colors
+* 9d5a3f2 SoundSettings: Prevent NPE due to linked volumes change
+* 0fecbec DND Icon
+* fe9bf80 Settings: Port PA battery circle style [1/3]
+* 952ce51 Remove hidden entry from clock
+* acd7e69 Fix up the preferences for data easy toggle
+* 8ee6ffd Fix NPE of backlight settings [2/2]
+* 88a700c DUI: Initial N checkin Adapted for reDefining Zone by @AKabhishek
+* 1ea2bd6 Added modded marginov color picker
+* 2cc3504 Remove SuperSU entry from Settings when SuperSU is not installed
+* c292a35 Launch SuperSU from Settings
+
+/*--Frameworks/base--*/
+
+* 243b965 (HEAD, m/n, dnd/n) fix quick settings ui fc
+* f3330b7 Fix NPE caused by custom small QS tiles
+* 8ba1145 QSCustomizer: use custom column count
+* ce2f044 Revert "Add option to disable auto brightness icon in brightness slider [1/2]"
+* 024f917 update DocumentUi icons from pixel image
+* 25e8a12 DocumentsUI: Set up the standalone file manager for now
+* 4502d15 DocumentsUI: Replace downloads drawable with the one found in pixel
+* 7b400ef Themes: Expose Keyguard affordance circle background
+* c39d98a Set external QS tiles tint mode to SRC_ATOP
+* 1d7d2f5 graphics: ADB "N" icon compatible with OMS7
+* 3596457 doze: allow grayscale even if invert boolean is false
+* 8d7748e OMS: StrictMode and files under /data/system/theme/
+* a07cdcf Revert "DUI: Remove screen record [1/2]"
+* 0e2f561 Remove duplicate permissions
+* 7f9c22c Fwb updates
+* db90a21 Add metrics_constants for REDEFINITION
+* 13a9803 Fix derps
+* 67f840e QS: Battery Saver Easy Toggle [1/2]
+* 47264af Add system_primary color
+* 2c47aef Battery icon: fix getDrawable for new Android API
+* decf7b7 Fix battery text gap issue
+* a8357fa battery: Allow setting custom symbol near text on charging [1/2]
+* 08a92d9 Battery tile: allow to disable custom battery style [1/2]
+* 9fbc6b1 BatteryTile: Clean up redundancy
+* a800acf Increase text size for circle/landscape battery style
+* 785182b Battery tile bolt/text should not be clear
+* 6cc024e Sync battery tile icon with statusbar
+* b8a0c98 SystemUI: Reroute Battery QS Tile tint back to original color
+* ddab946 Themes: Expose QS battery
+* d29bee8 bring back screen record shortcut
+* 9881b97 screen record: make sure to always delete tmp files
+* 73ad661 Screen Recording: forward port from 4.4
+* 13a534231 Revert "Optional screenshot type [1/2]"
+* db3f0cc PhoneWindowManager: Support multiple key handlers
+* 373a0db SystemUI: Never link nofication volume on non-voice capable devices
+* 215f20a core: more descriptive vendor image mismatch message
+* 113d4cf Revert "Frameworks: fix living wallpaper exception when reboot"
+* 42e6738 Correctly name LID_STATE_CHANGED broadcast
+* 0fa9c09 Revert "Add overlay option for Settings.System.ACCELEROMETER_ROTATION_ANGLES"
+7debc58 Fix incorrect FIFO cgroup assignment.
+* 121166b Fix window transformation related issue
+* 89fdb07 Fix a memory leak.
+* 63e9c6a QS - Fix race condition in accessibility
+* db17916 Make sure Zygote is running at process priority 0 after VM has started.
+* 52ce27e QS: Fix QuickQS visibility at non-first page
+* 013151e Fix clipping for edit screen of Quick Settings
+* 55634e9 Avoid starving RT anims
+* e6d26af Allow lid to send a generic COVER_CHANGED broadcast
+* 3fc610a SystemUI: HotspotTile: Don't reset the number of connected clients
+* c05599b [2/3] Re-introduce custom charging on/off sounds
+* 1288ebc Readded Platinum Alarm sound as I miss it in newer builds.
+* 86465dd AudioService: Launch default music player on headset connect
+* 1735d3f Merge tag 'android-7.1.1_r9' into n
+* 0f832c6 Fixes
+* f7ccc8d Fully remove ContentObserver from Bluetooth battery level toggle
+* 62ac99b Fix Bluetooth icon not properly refreshing
+* abfe5cb Fix Bluetooth battery level toggle
+* ea9c2e4 Disable dashboard conditions [1/2]
+* 1b2dd33 Remove dashboard tile summaries [2/2]
+* 2de0583 Disable dashboard suggestions [2/2]
+* 407e81b Fw_base - Ability to hide superuser status bar icon [1/2]
+* 226c321 Fw_base - Disable Lockscreen Media Art [1/2]
+* 8fb51c7 Add "android.permission.READ_PHONE_STATE" to manifest
+* 5bb0c28 aapt: Default to 0 compression ratio
+* 32ad8a7 ActivityManagerNative: Prevent possible soft-reboot
+* f93476e Base: API to restart SystemUI without root
+* 401823d AppOps: Avoid RuntimeException and log spam
+* 3f4366a Statusbar Network Indicators : Use vectorized arrow icons
+* 80cbf1e DefaultPermissionGrantPolicy: Pass correct arguments
+* 6b8602c Bring back quick install with N adaptations
+* 09ebdff circlebattery: bring back pulsing animation
+* d4d2905 DUI: Fix navbar edit logspam
+* e3ab5f0 QS: Clean up Pulse Tile
+* 559cd50 Add longpress action for caffeine tile
+* fa83d33 Data activity icon in statusbar
+* 6ed954a Assist app is not launched when long-pressing on Home key
+* 5f91ac3 One handed mode toggle [1/3]
+* 621c015 Add new feature of One-hand UI Mode [1/3]
