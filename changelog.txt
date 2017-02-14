@@ -1,3 +1,184 @@
+/*--manifest--*/
+
+* a00ccce (HEAD -> default, origin/n, m/n) cm: Remove android-visualizer library
+* 0929915 cm: Remove ahbottomnavigation library
+* 5295295 blame @AKabhishek
+
+/*--vednor/cm--*/
+
+* c1e2f10 (HEAD, m/n, dnd/n) Clean up duplication
+* 42bf54e Squashed updates of APNS from https://github.com/LineageOS/android_vendor_cm (#5)
+* 85d8a86 tasks: dt: add flag to optionally compress dt with lz4 Gotta save that space somehow. This is in the continuing   effort to remove custom mkbootimg.mk files in device trees
+* 72821f3 qcom: Permit dumpstate to run "ip xfrm policy"
+
+/*--onyx--*/
+
+* aed5a4d (HEAD -> n, origin/n, origin/HEAD) Revert "Disable fluence on voicecall"
+* a29a5b8 bacon: kang find7 libAKM8963
+* b9eadcb bacon: Switch to the CMHW touchscreen gestures implementation
+* e992dc9 bacon: remove extra key
+* 1541b3e Update dnd.dependencies
+* 34ca727 Update dnd.dependencies
+* c59329d Update dnd.dependencies
+* 296c420 Sorry My bad
+* 9c6bb4a Use Malloc
+* 5784ca9 Darkness *-*
+* d206554 bacon: remove vendorsetup
+* c426fd3 bacon: rebrand to lineage
+* 5b414f0 Disable fluence on voicecall
+* afbb236 bacon: Cleanup sepolicy
+* fee071e bacon: Switch to the unified LED capabilities overlay
+* 123be30 bacon: enable SDClang
+* 1db9ade bacon: enable sdcardFS
+* 28de43f bacon: make config_bt_addr service oneshot again
+* 88a2afc bacon: Add blob to decrypt full-disk encryption of /data.
+* d20afb8 bacon: update proprietary-files-qc
+* f81aefe bacon: Remove enhanced NFC feature
+* e29467d bacon: Add shim for libwvm.so
+* 8d86cb1 bacon: N sepolicy bringup
+* 2a880f7 bacon: enable platform text relocations
+* 214d46f bacon: set nfc device location
+* b7b6d94 bacon: disable CNE/DPM/QC location
+* e18c478 bacon: camera h4xx
+* 0f82270 bacon: tmp disable blur overlay
+* 074a329 bacon: update drm blobs
+* 3b24b55 bacon: Add GraphicBuffer shim for camera.vendor.bacon.so
+* 14a4aea bacon: remove PROPERTY_PERMS_APPEND
+* 9006af1 bacon: add missing camera parameters
+* 25c8d31 init: Update import_kernel_cmdline usage for N
+* a07f3b0 bacon: Cleanup init.qcom.bt.sh
+* bbad5de bacon: Hack gps HAL for N
+* f3fbaf8 init: Add missing header
+* 0fc213a Cleanup after making tty_enabled = true by default.
+* da0b4a0 bacon: COMMON_GLOBAL_C[PP]FLAGS->BOARD_GLOBAL_C[PP]FLAGS
+* f36d1a4 bacon: clang is default in N
+
+/*--bacon--*/
+
+* aed5a4d (HEAD -> n, origin/n, origin/HEAD) Revert "Disable fluence on voicecall"
+* a29a5b8 bacon: kang find7 libAKM8963
+* b9eadcb bacon: Switch to the CMHW touchscreen gestures implementation
+* e992dc9 bacon: remove extra key
+* 1541b3e Update dnd.dependencies
+* 34ca727 Update dnd.dependencies
+* c59329d Update dnd.dependencies
+* 296c420 Sorry My bad
+* 9c6bb4a Use Malloc
+* 5784ca9 Darkness *-*
+* d206554 bacon: remove vendorsetup
+* c426fd3 bacon: rebrand to lineage
+* 5b414f0 Disable fluence on voicecall
+* afbb236 bacon: Cleanup sepolicy
+* fee071e bacon: Switch to the unified LED capabilities overlay
+* 123be30 bacon: enable SDClang
+* 1db9ade bacon: enable sdcardFS
+* 28de43f bacon: make config_bt_addr service oneshot again
+* 88a2afc bacon: Add blob to decrypt full-disk encryption of /data.
+* d20afb8 bacon: update proprietary-files-qc
+* f81aefe bacon: Remove enhanced NFC feature
+* e29467d bacon: Add shim for libwvm.so
+* 8d86cb1 bacon: N sepolicy bringup
+* 2a880f7 bacon: enable platform text relocations
+* 214d46f bacon: set nfc device location
+* b7b6d94 bacon: disable CNE/DPM/QC location
+* e18c478 bacon: camera h4xx
+* 0f82270 bacon: tmp disable blur overlay
+* 074a329 bacon: update drm blobs
+* 3b24b55 bacon: Add GraphicBuffer shim for camera.vendor.bacon.so
+* 14a4aea bacon: remove PROPERTY_PERMS_APPEND
+* 9006af1 bacon: add missing camera parameters
+* 25c8d31 init: Update import_kernel_cmdline usage for N
+* a07f3b0 bacon: Cleanup init.qcom.bt.sh
+* bbad5de bacon: Hack gps HAL for N
+* f3fbaf8 init: Add missing header
+* 0fc213a Cleanup after making tty_enabled = true by default.
+* da0b4a0 bacon: COMMON_GLOBAL_C[PP]FLAGS->BOARD_GLOBAL_C[PP]FLAGS
+* f36d1a4 bacon: clang is default in N
+
+/*--kenzo--*/
+
+* 27387bd (HEAD -> n, m/n, github/n) [hax]:kenzo: Initial push of Flashlight app
+* fc9e489 kenzo: Use oss consumerir hal
+* d495926 kenzo: Import oss camera hal from caf
+* 647859d meh ! No remotes
+* d2e58b6 Rebrand to DarkNess
+* 0b2aa88 Update deps
+* df01725 Update paths
+* b067694 kenzo: Enable qmi ota daemon
+* 0047e6d kenzo: Add widevine blobs from bullhead
+* f18360f kenzo: selinux permissive by default
+* 5377c82 DND-ify
+* ecbbb6b kenzo: Move camera props to device
+* 28b7721 kenzo: Update blobs
+* be6e509 kenzo: Rebrand to LineageOS
+* 5172d82 kenzo: Blacklist fingerprint HAL key events
+* 1bca6e4 kenzo: Ship prebuilt wcnss_service
+* bcf8052 kenzo: Update build fingerprint
+* 72ec20b kenzo: Update blobs
+* 0b184d9 kenzo: Add device specific sepolicy rules
+* 7488204 kenzo: Switch to msm8956-common
+* a210099 kenzo: Specify we have a cache partition
+* 929def5 kenzo: Bring DozeSettings up to date
+* 2202d0d kenzo: Add XiaomiDoze package
+* ed346a9 kenzo: Sepolicy updates for N
+* d859969 kenzo: Disable DEXPREOPT
+* 4f84ad0 kenzo: gps: HAX
+* 1744b47 kenzo: Remove QC Location
+* f9fa0ee kenzo: Update radio blobs sha
+* 97f07da kenzo: Copy uinput-fpc keylayout
+* 7f51a65 kenzo: Better optimize the 32bit blobs
+* 3dc3480 kenzo: Update power configs
+* 0307174 kenzo: Add support for top-app cpuset
+* 646726a kenzo: Enable the Pinner Service for pinning files into memory
+* 550e289 kenzo: Set Qualcomm Bluetooth SOC ID
+* d25a783 kenzo: Remove WLAN module
+* 017dc37 kenzo: Tweak autobrightness values
+* 59467c4 kenzo: Update media configs
+* 19474ee kenzo: Update audio configs
+* b790086 kenzo: Build Camera2
+
+/*--kenzo-8956--*/
+
+* eb234d7 (HEAD -> n, origin/n, origin/HEAD) haxx:msm8956: Give suitable permission for flashlight app
+* 900293a Change dpi
+* 48980bb Bring back doze
+* 486250f Revert "Enable ScreenRecord"
+* b68999b Enable ScreenRecord
+* 1841877 Update paths
+* 1ffa365 msm8956: Rework USB configs
+* 6b09f79 msm8956: Remove usused btnvtool function
+* e006c15 msm8956: Copy mbn_ota.txt
+* e4e0fe8 msm8956: Add IMS shim
+* f9f7fde msm8956: Enable boot dexpreopt
+* 48a6e99 msm8956: Set GPS debug level to error
+* c4e927e Change fluence to none
+* 053f98f msm8956: Enable BOARD_HAVE_QCOM_FM
+* 6cfe816 msm8956: Moar selinux
+* fb6fd8f msm8956: Fix few SELinux denials
+* ff0440b msm8956: Add and enable IMS
+* 02046fc msm8956: Remove use of config_display_rat
+* e7eb75b msm8956: Add missing overlays
+* 2b44af8 msm8956: Update ramdisk from MIUI N
+* 8776b2e msm8956: Update GPS configs from MIUI N
+* 3a59217 msm8956: Update GPS HAL from upstream
+* ae10f6a msm8956: Update data-ipa-cfg-mgr to LA.BR.1.3.6_rb1.10
+* 38ce3aa msm8956: Misc updates from MIUI N
+* c2800da msm8956: Rewrite build-time symlinks creation
+* 075678e msm8956: Enable qualcomm location
+* dd72b79 msm8956: Add vulkan API features
+* f0d55f4 msm8956: Add net_raw to ril daemon services
+* 80f29bf Revert "Add IMS Support [2/2]"
+* 6eb5b9f msm8956: prevent core 4 from hotplugging
+* f0334dd msm8956: remove auto-power-save mode overlay
+* 6882f5e Revert "msm8956: Build libprotobuf-cpp-full"
+* e878577 msm8956: Set monotonic property to 0
+* 6b7c2b7 msm8956: Drop XML audio policy
+* 08a7b0f msm8956: Add VSYNC offsets
+* f9e7dc1 msm8956: Enable TARGET_USES_MEDIA_EXTENSIONS
+* 44737d3 msm8956: Specify android_filesystem_config.h header path
+* e73264b msm8956: Enable sdcardfs
+* 3c2b7e9 msm8956: Update power configs
+
 /*--build--*/
 
 * f72b057 (HEAD, m/n, dnd/n) releasetools: Generate recovery-from-boot.p with bsdiff if necessary
