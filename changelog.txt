@@ -1,385 +1,92 @@
-/*--manifest--*/
+/* Settings */
 
-* a00ccce (HEAD -> default, origin/n, m/n) cm: Remove android-visualizer library
-* 0929915 cm: Remove ahbottomnavigation library
-* 5295295 blame @AKabhishek
+* 1ca799b (HEAD, m/n, dnd/n) Allow to set Ripple on other buttons for Home button only pixel animation [2/2]
+* 5e03ee3 Smartbar: allow to set pixel ani for the home button only [2/2]
+* c7bd458 SmartBar: Add Pixel to button animation settings [3/3]
+* c9cec55 SmartBar: add Flip button animation [2/2]
+* 67730dc Properly remove root access under DevSettings
+* f38311a Settings: Change magisk dashboard icon
+* 64c96ba Add Magisk Manager dashboard option
+* 9eed3c0 Buttons: Hardware key disable support with M adaptations [2/2]
+* 8c25fd6 Enable single tap rebinding for hwkey back and home
+* 30ec18c Buttons: HwKey action binding preferences [3/3]
+* 42866b2 buttons: Remove double tap power for camera setting
+* a1af87e Move status bar tap to sleep pref to Settings We're adding this to the AOSP gestures screen;
+* 4452213 Settings: Add modified Pixel launcher icon
+* 8d3949b Fix build
+* efb623b Unveiling Notification count toggle
 
-/*--vednor/cm--*/
+/* Frameworks/base  */
 
-* c1e2f10 (HEAD, m/n, dnd/n) Clean up duplication
+* ac77e77 (HEAD, m/n, dnd/n) Buttons: Hardware key disable support with M adaptations [1/2]
+* 081c25d frameworks/base: Don't report existing menu key if it was remapped. [2/3]
+* 13ccbb9 Buttons: Bring up DU hardware key action binding framework [1/2]
+* 0503d2e Fix build
+* 6aa5bf3 base: location: silence log spilling
+* 0add4c0 Turn the spam off
+* 1902ba1 Fix Photosphere/Camera FCs
+* 6a0ebd4 [Squashed] Add VOLTE icon Extracted from CAF and adapted to AOSP by @xyyx Added switch to statusbar icon blacklist by @xyyx
+* f2ef37f fix quick settings ui fc
+* 5a4115c Fix NPE caused by custom small QS tiles
+* bdd6a67 QSCustomizer: use custom column count
+* a81e173 Revert "Add option to disable auto brightness icon in brightness slider [1/2]"
+* fc5fbdc update DocumentUi icons from pixel image
+* a54ea8f DocumentsUI: Set up the standalone file manager for now
+* 0127417 DocumentsUI: Replace downloads drawable with the one found in pixel
+* 7401e6b Themes: Expose Keyguard affordance circle background
+* a505958 Set external QS tiles tint mode to SRC_ATOP
+* f2bb5b3 graphics: ADB "N" icon compatible with OMS7
+* 05c9e00 doze: allow grayscale even if invert boolean is false
+* bad1d39 OMS: StrictMode and files under /data/system/theme/
+* 78a3d69 Revert "DUI: Remove screen record [1/2]"
+* c05b58d Remove duplicate permissions
+* e190798 Fwb updates
+* 075a2f7 Add metrics_constants for REDEFINITION
+
+/* vendor  */
+
+* 63c45dd (HEAD, m/n, dnd/n) vendor: Switch to Magisk for root solution [2/2]
+* a2be1c9 Disable SU by default
+* 1b17a6e vendor: Allow platform_app to run su_exec() (2/2)
+* d95d307 vendor: Allow system_server to run su_exec() (2/2)
+* 3586192 cm: Enable long-press on power in suspend by default
+* 89ac928 Build DNDWalls
+* c1e2f10 Clean up duplication
 * 42bf54e Squashed updates of APNS from https://github.com/LineageOS/android_vendor_cm (#5)
-* 85d8a86 tasks: dt: add flag to optionally compress dt with lz4 Gotta save that space somehow. This is in the continuing   effort to remove custom mkbootimg.mk files in device trees
-* 72821f3 qcom: Permit dumpstate to run "ip xfrm policy"
-
-/*--onyx--*/
-
-* aed5a4d (HEAD -> n, origin/n, origin/HEAD) Revert "Disable fluence on voicecall"
-* a29a5b8 bacon: kang find7 libAKM8963
-* b9eadcb bacon: Switch to the CMHW touchscreen gestures implementation
-* e992dc9 bacon: remove extra key
-* 1541b3e Update dnd.dependencies
-* 34ca727 Update dnd.dependencies
-* c59329d Update dnd.dependencies
-* 296c420 Sorry My bad
-* 9c6bb4a Use Malloc
-* 5784ca9 Darkness *-*
-* d206554 bacon: remove vendorsetup
-* c426fd3 bacon: rebrand to lineage
-* 5b414f0 Disable fluence on voicecall
-* afbb236 bacon: Cleanup sepolicy
-* fee071e bacon: Switch to the unified LED capabilities overlay
-* 123be30 bacon: enable SDClang
-* 1db9ade bacon: enable sdcardFS
-* 28de43f bacon: make config_bt_addr service oneshot again
-* 88a2afc bacon: Add blob to decrypt full-disk encryption of /data.
-* d20afb8 bacon: update proprietary-files-qc
-* f81aefe bacon: Remove enhanced NFC feature
-* e29467d bacon: Add shim for libwvm.so
-* 8d86cb1 bacon: N sepolicy bringup
-* 2a880f7 bacon: enable platform text relocations
-* 214d46f bacon: set nfc device location
-* b7b6d94 bacon: disable CNE/DPM/QC location
-* e18c478 bacon: camera h4xx
-* 0f82270 bacon: tmp disable blur overlay
-* 074a329 bacon: update drm blobs
-* 3b24b55 bacon: Add GraphicBuffer shim for camera.vendor.bacon.so
-* 14a4aea bacon: remove PROPERTY_PERMS_APPEND
-* 9006af1 bacon: add missing camera parameters
-* 25c8d31 init: Update import_kernel_cmdline usage for N
-* a07f3b0 bacon: Cleanup init.qcom.bt.sh
-* bbad5de bacon: Hack gps HAL for N
-* f3fbaf8 init: Add missing header
-* 0fc213a Cleanup after making tty_enabled = true by default.
-* da0b4a0 bacon: COMMON_GLOBAL_C[PP]FLAGS->BOARD_GLOBAL_C[PP]FLAGS
-* f36d1a4 bacon: clang is default in N
-
-/*--bacon--*/
-
-* aed5a4d (HEAD -> n, origin/n, origin/HEAD) Revert "Disable fluence on voicecall"
-* a29a5b8 bacon: kang find7 libAKM8963
-* b9eadcb bacon: Switch to the CMHW touchscreen gestures implementation
-* e992dc9 bacon: remove extra key
-* 1541b3e Update dnd.dependencies
-* 34ca727 Update dnd.dependencies
-* c59329d Update dnd.dependencies
-* 296c420 Sorry My bad
-* 9c6bb4a Use Malloc
-* 5784ca9 Darkness *-*
-* d206554 bacon: remove vendorsetup
-* c426fd3 bacon: rebrand to lineage
-* 5b414f0 Disable fluence on voicecall
-* afbb236 bacon: Cleanup sepolicy
-* fee071e bacon: Switch to the unified LED capabilities overlay
-* 123be30 bacon: enable SDClang
-* 1db9ade bacon: enable sdcardFS
-* 28de43f bacon: make config_bt_addr service oneshot again
-* 88a2afc bacon: Add blob to decrypt full-disk encryption of /data.
-* d20afb8 bacon: update proprietary-files-qc
-* f81aefe bacon: Remove enhanced NFC feature
-* e29467d bacon: Add shim for libwvm.so
-* 8d86cb1 bacon: N sepolicy bringup
-* 2a880f7 bacon: enable platform text relocations
-* 214d46f bacon: set nfc device location
-* b7b6d94 bacon: disable CNE/DPM/QC location
-* e18c478 bacon: camera h4xx
-* 0f82270 bacon: tmp disable blur overlay
-* 074a329 bacon: update drm blobs
-* 3b24b55 bacon: Add GraphicBuffer shim for camera.vendor.bacon.so
-* 14a4aea bacon: remove PROPERTY_PERMS_APPEND
-* 9006af1 bacon: add missing camera parameters
-* 25c8d31 init: Update import_kernel_cmdline usage for N
-* a07f3b0 bacon: Cleanup init.qcom.bt.sh
-* bbad5de bacon: Hack gps HAL for N
-* f3fbaf8 init: Add missing header
-* 0fc213a Cleanup after making tty_enabled = true by default.
-* da0b4a0 bacon: COMMON_GLOBAL_C[PP]FLAGS->BOARD_GLOBAL_C[PP]FLAGS
-* f36d1a4 bacon: clang is default in N
-
-/*--kenzo--*/
-
-* 27387bd (HEAD -> n, m/n, github/n) [hax]:kenzo: Initial push of Flashlight app
-* fc9e489 kenzo: Use oss consumerir hal
-* d495926 kenzo: Import oss camera hal from caf
-* 647859d meh ! No remotes
-* d2e58b6 Rebrand to DarkNess
-* 0b2aa88 Update deps
-* df01725 Update paths
-* b067694 kenzo: Enable qmi ota daemon
-* 0047e6d kenzo: Add widevine blobs from bullhead
-* f18360f kenzo: selinux permissive by default
-* 5377c82 DND-ify
-* ecbbb6b kenzo: Move camera props to device
-* 28b7721 kenzo: Update blobs
-* be6e509 kenzo: Rebrand to LineageOS
-* 5172d82 kenzo: Blacklist fingerprint HAL key events
-* 1bca6e4 kenzo: Ship prebuilt wcnss_service
-* bcf8052 kenzo: Update build fingerprint
-* 72ec20b kenzo: Update blobs
-* 0b184d9 kenzo: Add device specific sepolicy rules
-* 7488204 kenzo: Switch to msm8956-common
-* a210099 kenzo: Specify we have a cache partition
-* 929def5 kenzo: Bring DozeSettings up to date
-* 2202d0d kenzo: Add XiaomiDoze package
-* ed346a9 kenzo: Sepolicy updates for N
-* d859969 kenzo: Disable DEXPREOPT
-* 4f84ad0 kenzo: gps: HAX
-* 1744b47 kenzo: Remove QC Location
-* f9fa0ee kenzo: Update radio blobs sha
-* 97f07da kenzo: Copy uinput-fpc keylayout
-* 7f51a65 kenzo: Better optimize the 32bit blobs
-* 3dc3480 kenzo: Update power configs
-* 0307174 kenzo: Add support for top-app cpuset
-* 646726a kenzo: Enable the Pinner Service for pinning files into memory
-* 550e289 kenzo: Set Qualcomm Bluetooth SOC ID
-* d25a783 kenzo: Remove WLAN module
-* 017dc37 kenzo: Tweak autobrightness values
-* 59467c4 kenzo: Update media configs
-* 19474ee kenzo: Update audio configs
-* b790086 kenzo: Build Camera2
-
-/*--kenzo-8956--*/
-
-* eb234d7 (HEAD -> n, origin/n, origin/HEAD) haxx:msm8956: Give suitable permission for flashlight app
-* 900293a Change dpi
-* 48980bb Bring back doze
-* 486250f Revert "Enable ScreenRecord"
-* b68999b Enable ScreenRecord
-* 1841877 Update paths
-* 1ffa365 msm8956: Rework USB configs
-* 6b09f79 msm8956: Remove usused btnvtool function
-* e006c15 msm8956: Copy mbn_ota.txt
-* e4e0fe8 msm8956: Add IMS shim
-* f9f7fde msm8956: Enable boot dexpreopt
-* 48a6e99 msm8956: Set GPS debug level to error
-* c4e927e Change fluence to none
-* 053f98f msm8956: Enable BOARD_HAVE_QCOM_FM
-* 6cfe816 msm8956: Moar selinux
-* fb6fd8f msm8956: Fix few SELinux denials
-* ff0440b msm8956: Add and enable IMS
-* 02046fc msm8956: Remove use of config_display_rat
-* e7eb75b msm8956: Add missing overlays
-* 2b44af8 msm8956: Update ramdisk from MIUI N
-* 8776b2e msm8956: Update GPS configs from MIUI N
-* 3a59217 msm8956: Update GPS HAL from upstream
-* ae10f6a msm8956: Update data-ipa-cfg-mgr to LA.BR.1.3.6_rb1.10
-* 38ce3aa msm8956: Misc updates from MIUI N
-* c2800da msm8956: Rewrite build-time symlinks creation
-* 075678e msm8956: Enable qualcomm location
-* dd72b79 msm8956: Add vulkan API features
-* f0d55f4 msm8956: Add net_raw to ril daemon services
-* 80f29bf Revert "Add IMS Support [2/2]"
-* 6eb5b9f msm8956: prevent core 4 from hotplugging
-* f0334dd msm8956: remove auto-power-save mode overlay
-* 6882f5e Revert "msm8956: Build libprotobuf-cpp-full"
-* e878577 msm8956: Set monotonic property to 0
-* 6b7c2b7 msm8956: Drop XML audio policy
-* 08a7b0f msm8956: Add VSYNC offsets
-* f9e7dc1 msm8956: Enable TARGET_USES_MEDIA_EXTENSIONS
-* 44737d3 msm8956: Specify android_filesystem_config.h header path
-* e73264b msm8956: Enable sdcardfs
-* 3c2b7e9 msm8956: Update power configs
-
-/*--build--*/
-
-* f72b057 (HEAD, m/n, dnd/n) releasetools: Generate recovery-from-boot.p with bsdiff if necessary
-* 1b86b76 dumpvar: Dump RECOVERY_VARIANT if not empty
-* 30e9e0d bacon: strip absolute PRODUCT_OUT path from md5sum file
-* e4377de Don't spam logcat
-* 93dfbd4 Revert "Add SuperSU to DND [2/2]"
-* 5f1d1c9 Do this but in a manner :p
-* 1e9f2d6 core: Fix unified trees with no TARGET_OTA_ASSERT_DEVICE
-* 1c7a5bd core: include libf2fs_fmt_host_dyn in otatools
-* 59dbc3d ota_from_target_files: Remove device dependent arguments
-* a00d889 releasetools: support reading release keys out of some sort of command
-* e9bc47a releasetools: Add script to sign zips
-* 4158329 Do not make browser .. !
-* bd56ec0 build sign_target_files_apks.py: clean tmp on exit
-* 39d16a4 Revert "build: Enable custom ccache cache dir for Android"
-*   fda020e Merge pull request #3 from Darkness-reDefined/test
-|\  
-| * 5bd3b10 build: support dnd device trees
-* | 4bb7ecc Add SuperSU to DND [2/2]
-|/  
-* 5ae982a Update & Add colors to the Makefile
-* e508c04 core: move platform-specific helper macros to target makefiles
-*   06ee9c9 Merge pull request #2 from dont-try-to-look-here/test
-|\  
-| * 8f47fd4 Merge tag 'android-7.1.1_r9' into DND
-| * f6c87fa build: Replace pushd with cd
-* | 632f454 build: Replace pushd with cd (#1)
-
-/*--vendor/dnd--*/
-
-* da65770 (HEAD, m/n, dnd/n) Create CHANGELOG.mkdn
 * 85d8a86 tasks: dt: add flag to optionally compress dt with lz4 Gotta save that space somehow. This is in the continuing   effort to remove custom mkbootimg.mk files in device trees
 * 72821f3 qcom: Permit dumpstate to run "ip xfrm policy"
 * 00219e9 LatinIME: re-add (fixed) Hungarian dictionary
 * 4deb85c cm: charger: Correct res_create_multi_display_surface() usage
 * 9f60606 Bring darkness to these devices
 * 68f4d0c Build About & OTA app
-* bf5d641 Remove cmte permission
-* 00f7cdc cm: overlay: Settings: Enable gesture settings
-* 2a1a39f apns: Remove differentiation between FreedomPop GSM APNs
-* 205d56a apns: Correct FreedomPop US LTE APN
-* 99948bf envsetup: Use GNU sed commands if GNU sed is detected
-* ff12839 apns: Add differentiation to FreedomPop Global GSM APN
-* 59a10c4 apns: Add FreedomPop US LTE sim APN
-* 85dd9a9 apns: Correct FreedomPop Global GSM APN
-* 9fc9a04 Remove Chromium
-* 0fdc45f Revert "build: kernel: build arm kernel modules with -fno-pic"
-* eb7a7c6 Revert "Add SuperSU to DND [1/2]"
-* b92d0bf Enable the Google Assistant on all devices.
-* 2ef9935 vendor: updates
-* d68b79d Remove unnecessary su system dependency
-* ddbef5d Bring the Darkness to Gemini!
-* f23a4eb Enable some packages
-* ef55fc1 Bring in Chromium
-* 09d04ff Remove Gello
-* 11a74f6 apns: Loop Wireless: defunct
-* 9923423 Update SuperSU to 2.79-SR3
-* 68857a6 apns: Add Freedompop foggmobile APN
-* 63c9a19 build: Append -dtb to kernel image name if TARGET_KERNEL_APPEND_DTB is set
-* 6b9a689 extract_utils: Detect output existence before moving it for backup
-* 50492d9 Sepolicy: Add perm for find cmstatusbar
-* c04066d overlay: Enable Visual Voicemail for Verizon devices
-* ab7aff6 build: kernel: build arm kernel modules with -fno-pic
-*   751cfee Merge pull request #4 from Darkness-reDefined/test
-|\  
-| * 49e5386 vendor: support dnd device trees
-* | 43ddcd7 Update SuperSU to 2.79-SR1 Change-Id: Ic3ca5ee03719fbdc873a5ba2f389d86a559149e9
-* | 6399b3c fix mismerge
-* | 76e7621 Add SuperSU to DND [1/2]
-|/  
-* f3a45cf More reDefining
-* 9b7e5dc Vendor: Improve build bash & Remove sepolicy entries of CM packages
-* 0c04203 Vendor - DU utils: Build utils library and add as boot jar
-* 3e2315f roomservice: Publish our name changes
-* 8e5b015 Cleanup
-*   3610a73 Merge branch 'n' of https://github.com/dont-try-to-look-here/android_vendor_dnd into n
 
-/*--packages/apps/Settings--*/
+/* Build  */
 
-* d3328c8 (HEAD, m/n, dnd/n) Hide broken stuffs
-* cb7e810 Cleanup some derps
-* 337fb01 Set external settings icon tint mode to SRC_ATOP
-* 2d5aad4 Settings updates
-* 893b664 Battery Saver Easy Toggle [2/2]
-* 1bbe3d6 Misc Fixes & Updates
-* e440607 Add DarkNess OTA
-* 4d1b45d Add Phh Superuser dashboard tile credit to @tsubus for his setting dashboard implementation
-* b63c02e Add Substratum dashboard tile
-* 3371f36 battery: Allow setting custom symbol near text on charging [2/2]
-* ccf21e6 Battery tile: allow to disable custom battery style [2/2]
-* c08dec7 Move Fingerprint authentication vibration to Ui
-* 3f8aa91 Settings: Launch default music player on headset connect
-* 0ee7c8b Settings: Add volume link notification switch
-* 57c7913 Move notif volume pref on top of increasing ring pref
-* d4aa02e [3/3] Settings: Add CMParts charging sound settings preference
-* 88b3bf8 Settings: Don't crash in SUW if no talkback service is installed
-* 91f5b3f Add summary to the reDefining Arena
-* d3cc21f Disable Dashboard Conditions [2/2]
-* 7b1eda8 Remove dashboard tile summaries [1/2]
-* b8fe447 Disable dashboard suggestions [2/2]
-* 1d1449f Ability to hide superuser status bar icon [2/2]
-* 2131ff1 Disable Lockscreen Media Art [2/2]
-* 7e4906d One handed mode toggle [3/3]
-* f109559 Fingerprint authentication vibration [2/2]
-* 0cfe0a8 Settings: Add volume link notification switch
-* 2e865cb Move notif volume pref on top of increasing ring pref
-* 23c9049 Settings: per-app cellular data and wifi restrictions
-* eb40503 Settings: Fix translations
-* 318f48b Allow restricted profiles on phones
-* a147cf3 Settings: Improve hotspot timeout strings
-* 50aa932 Settings: Let's get to choose keyboard again in Settings.
-* 09329c6 Settings: Expose bluetooth pin confirm dialog text colors
-* 9d5a3f2 SoundSettings: Prevent NPE due to linked volumes change
-* 0fecbec DND Icon
-* fe9bf80 Settings: Port PA battery circle style [1/3]
-* 952ce51 Remove hidden entry from clock
-* acd7e69 Fix up the preferences for data easy toggle
-* 8ee6ffd Fix NPE of backlight settings [2/2]
-* 88a700c DUI: Initial N checkin Adapted for reDefining Zone by @AKabhishek
-* 1ea2bd6 Added modded marginov color picker
-* 2cc3504 Remove SuperSU entry from Settings when SuperSU is not installed
-* c292a35 Launch SuperSU from Settings
-
-/*--Frameworks/base--*/
-
-* 243b965 (HEAD, m/n, dnd/n) fix quick settings ui fc
-* f3330b7 Fix NPE caused by custom small QS tiles
-* 8ba1145 QSCustomizer: use custom column count
-* ce2f044 Revert "Add option to disable auto brightness icon in brightness slider [1/2]"
-* 024f917 update DocumentUi icons from pixel image
-* 25e8a12 DocumentsUI: Set up the standalone file manager for now
-* 4502d15 DocumentsUI: Replace downloads drawable with the one found in pixel
-* 7b400ef Themes: Expose Keyguard affordance circle background
-* c39d98a Set external QS tiles tint mode to SRC_ATOP
-* 1d7d2f5 graphics: ADB "N" icon compatible with OMS7
-* 3596457 doze: allow grayscale even if invert boolean is false
-* 8d7748e OMS: StrictMode and files under /data/system/theme/
-* a07cdcf Revert "DUI: Remove screen record [1/2]"
-* 0e2f561 Remove duplicate permissions
-* 7f9c22c Fwb updates
-* db90a21 Add metrics_constants for REDEFINITION
-* 13a9803 Fix derps
-* 67f840e QS: Battery Saver Easy Toggle [1/2]
-* 47264af Add system_primary color
-* 2c47aef Battery icon: fix getDrawable for new Android API
-* decf7b7 Fix battery text gap issue
-* a8357fa battery: Allow setting custom symbol near text on charging [1/2]
-* 08a92d9 Battery tile: allow to disable custom battery style [1/2]
-* 9fbc6b1 BatteryTile: Clean up redundancy
-* a800acf Increase text size for circle/landscape battery style
-* 785182b Battery tile bolt/text should not be clear
-* 6cc024e Sync battery tile icon with statusbar
-* b8a0c98 SystemUI: Reroute Battery QS Tile tint back to original color
-* ddab946 Themes: Expose QS battery
-* d29bee8 bring back screen record shortcut
-* 9881b97 screen record: make sure to always delete tmp files
-* 73ad661 Screen Recording: forward port from 4.4
-* 13a534231 Revert "Optional screenshot type [1/2]"
-* db3f0cc PhoneWindowManager: Support multiple key handlers
-* 373a0db SystemUI: Never link nofication volume on non-voice capable devices
-* 215f20a core: more descriptive vendor image mismatch message
-* 113d4cf Revert "Frameworks: fix living wallpaper exception when reboot"
-* 42e6738 Correctly name LID_STATE_CHANGED broadcast
-* 0fa9c09 Revert "Add overlay option for Settings.System.ACCELEROMETER_ROTATION_ANGLES"
-7debc58 Fix incorrect FIFO cgroup assignment.
-* 121166b Fix window transformation related issue
-* 89fdb07 Fix a memory leak.
-* 63e9c6a QS - Fix race condition in accessibility
-* db17916 Make sure Zygote is running at process priority 0 after VM has started.
-* 52ce27e QS: Fix QuickQS visibility at non-first page
-* 013151e Fix clipping for edit screen of Quick Settings
-* 55634e9 Avoid starving RT anims
-* e6d26af Allow lid to send a generic COVER_CHANGED broadcast
-* 3fc610a SystemUI: HotspotTile: Don't reset the number of connected clients
-* c05599b [2/3] Re-introduce custom charging on/off sounds
-* 1288ebc Readded Platinum Alarm sound as I miss it in newer builds.
-* 86465dd AudioService: Launch default music player on headset connect
-* 1735d3f Merge tag 'android-7.1.1_r9' into n
-* 0f832c6 Fixes
-* f7ccc8d Fully remove ContentObserver from Bluetooth battery level toggle
-* 62ac99b Fix Bluetooth icon not properly refreshing
-* abfe5cb Fix Bluetooth battery level toggle
-* ea9c2e4 Disable dashboard conditions [1/2]
-* 1b2dd33 Remove dashboard tile summaries [2/2]
-* 2de0583 Disable dashboard suggestions [2/2]
-* 407e81b Fw_base - Ability to hide superuser status bar icon [1/2]
-* 226c321 Fw_base - Disable Lockscreen Media Art [1/2]
-* 8fb51c7 Add "android.permission.READ_PHONE_STATE" to manifest
-* 5bb0c28 aapt: Default to 0 compression ratio
-* 32ad8a7 ActivityManagerNative: Prevent possible soft-reboot
-* f93476e Base: API to restart SystemUI without root
-* 401823d AppOps: Avoid RuntimeException and log spam
-* 3f4366a Statusbar Network Indicators : Use vectorized arrow icons
-* 80cbf1e DefaultPermissionGrantPolicy: Pass correct arguments
-* 6b8602c Bring back quick install with N adaptations
-* 09ebdff circlebattery: bring back pulsing animation
-* d4d2905 DUI: Fix navbar edit logspam
-* e3ab5f0 QS: Clean up Pulse Tile
-* 559cd50 Add longpress action for caffeine tile
-* fa83d33 Data activity icon in statusbar
-* 6ed954a Assist app is not launched when long-pressing on Home key
-* 5f91ac3 One handed mode toggle [1/3]
-* 621c015 Add new feature of One-hand UI Mode [1/3]
+* 43314c8 Flash script should be fancy
+* b88dce6 Remove CMAPI Check
+* 1406e65 build: support dnd device trees
+* f0a18f0 build: Add colors
+* 81981d3 OMS7-N: adb shell command to access OverlayManagerService
+* 1b95cc8 DarkNess reDefined Bringup
+* c392d92 dumpvar: Dump RECOVERY_VARIANT if not empty
+* 010ce6f Add dumpvar for WITH_SU
+* 11e91d3 edify: Fix AssertSomeBaseband
+* 86153fa Revert "build_image: Unbreak verity/FEC generation"
+* 9c2a7fd core: Output full OTA package path to terminal
+* d3d661f releasetools: Generate recovery-from-boot.p with bsdiff if necessary
+* 855ea21 Always copy bootable images in BOOTABLE_IMAGES/
+* 6544629 Revert "releasetools: Don't extract BOOTABLE_IMAGES when signing target files"
+* 7b98ed5 Move ro.bootimage.build.fingerprint to build.prop
+* 3adaa9d bacon: strip absolute PRODUCT_OUT path from md5sum file
+* e23867f core: include libf2fs_fmt_host_dyn in otatools
+* e44fa49 core: Fix unified trees with no TARGET_OTA_ASSERT_DEVICE
+* 7c93b44 ota_from_target_files: Remove device dependent arguments
+* 9b1da12 releasetools: support reading release keys out of some sort of command
+* 1f79d0d releasetools: Add script to sign zips
+* 5caf64b build: Warn about prebuilt apk in PRODUCT_COPY_FILES
+* 1183ccd build: Disable check for blocking prebuilt apk in PRODUCT_COPY_FILES
+* 7d48599 build sign_target_files_apks.py: clean tmp on exit
+* 47de313 Revert "build: Enable custom ccache cache dir for Android"
+* 18ebbb6 core: move platform-specific helper macros to target makefiles
+* c2dcf4b build: Replace pushd with cd
+*   c3d7caf Merge tag 'android-7.1.1_r9' of https://android.googlesource.com/platform/build into cm-14.1
