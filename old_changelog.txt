@@ -383,3 +383,96 @@
 * 6ed954a Assist app is not launched when long-pressing on Home key
 * 5f91ac3 One handed mode toggle [1/3]
 * 621c015 Add new feature of One-hand UI Mode [1/3]
+
+/* Settings */
+
+* 1ca799b (HEAD, m/n, dnd/n) Allow to set Ripple on other buttons for Home button only pixel animation [2/2]
+* 5e03ee3 Smartbar: allow to set pixel ani for the home button only [2/2]
+* c7bd458 SmartBar: Add Pixel to button animation settings [3/3]
+* c9cec55 SmartBar: add Flip button animation [2/2]
+* 67730dc Properly remove root access under DevSettings
+* f38311a Settings: Change magisk dashboard icon
+* 64c96ba Add Magisk Manager dashboard option
+* 9eed3c0 Buttons: Hardware key disable support with M adaptations [2/2]
+* 8c25fd6 Enable single tap rebinding for hwkey back and home
+* 30ec18c Buttons: HwKey action binding preferences [3/3]
+* 42866b2 buttons: Remove double tap power for camera setting
+* a1af87e Move status bar tap to sleep pref to Settings We're adding this to the AOSP gestures screen;
+* 4452213 Settings: Add modified Pixel launcher icon
+* 8d3949b Fix build
+* efb623b Unveiling Notification count toggle
+
+/* Frameworks/base  */
+
+* ac77e77 (HEAD, m/n, dnd/n) Buttons: Hardware key disable support with M adaptations [1/2]
+* 081c25d frameworks/base: Don't report existing menu key if it was remapped. [2/3]
+* 13ccbb9 Buttons: Bring up DU hardware key action binding framework [1/2]
+* 0503d2e Fix build
+* 6aa5bf3 base: location: silence log spilling
+* 0add4c0 Turn the spam off
+* 1902ba1 Fix Photosphere/Camera FCs
+* 6a0ebd4 [Squashed] Add VOLTE icon Extracted from CAF and adapted to AOSP by @xyyx Added switch to statusbar icon blacklist by @xyyx
+* f2ef37f fix quick settings ui fc
+* 5a4115c Fix NPE caused by custom small QS tiles
+* bdd6a67 QSCustomizer: use custom column count
+* a81e173 Revert "Add option to disable auto brightness icon in brightness slider [1/2]"
+* fc5fbdc update DocumentUi icons from pixel image
+* a54ea8f DocumentsUI: Set up the standalone file manager for now
+* 0127417 DocumentsUI: Replace downloads drawable with the one found in pixel
+* 7401e6b Themes: Expose Keyguard affordance circle background
+* a505958 Set external QS tiles tint mode to SRC_ATOP
+* f2bb5b3 graphics: ADB "N" icon compatible with OMS7
+* 05c9e00 doze: allow grayscale even if invert boolean is false
+* bad1d39 OMS: StrictMode and files under /data/system/theme/
+* 78a3d69 Revert "DUI: Remove screen record [1/2]"
+* c05b58d Remove duplicate permissions
+* e190798 Fwb updates
+* 075a2f7 Add metrics_constants for REDEFINITION
+
+/* vendor  */
+
+* 63c45dd (HEAD, m/n, dnd/n) vendor: Switch to Magisk for root solution [2/2]
+* a2be1c9 Disable SU by default
+* 1b17a6e vendor: Allow platform_app to run su_exec() (2/2)
+* d95d307 vendor: Allow system_server to run su_exec() (2/2)
+* 3586192 cm: Enable long-press on power in suspend by default
+* 89ac928 Build DNDWalls
+* c1e2f10 Clean up duplication
+* 42bf54e Squashed updates of APNS from https://github.com/LineageOS/android_vendor_cm (#5)
+* 85d8a86 tasks: dt: add flag to optionally compress dt with lz4 Gotta save that space somehow. This is in the continuing   effort to remove custom mkbootimg.mk files in device trees
+* 72821f3 qcom: Permit dumpstate to run "ip xfrm policy"
+* 00219e9 LatinIME: re-add (fixed) Hungarian dictionary
+* 4deb85c cm: charger: Correct res_create_multi_display_surface() usage
+* 9f60606 Bring darkness to these devices
+* 68f4d0c Build About & OTA app
+
+/* Build  */
+
+* 43314c8 Flash script should be fancy
+* b88dce6 Remove CMAPI Check
+* 1406e65 build: support dnd device trees
+* f0a18f0 build: Add colors
+* 81981d3 OMS7-N: adb shell command to access OverlayManagerService
+* 1b95cc8 DarkNess reDefined Bringup
+* c392d92 dumpvar: Dump RECOVERY_VARIANT if not empty
+* 010ce6f Add dumpvar for WITH_SU
+* 11e91d3 edify: Fix AssertSomeBaseband
+* 86153fa Revert "build_image: Unbreak verity/FEC generation"
+* 9c2a7fd core: Output full OTA package path to terminal
+* d3d661f releasetools: Generate recovery-from-boot.p with bsdiff if necessary
+* 855ea21 Always copy bootable images in BOOTABLE_IMAGES/
+* 6544629 Revert "releasetools: Don't extract BOOTABLE_IMAGES when signing target files"
+* 7b98ed5 Move ro.bootimage.build.fingerprint to build.prop
+* 3adaa9d bacon: strip absolute PRODUCT_OUT path from md5sum file
+* e23867f core: include libf2fs_fmt_host_dyn in otatools
+* e44fa49 core: Fix unified trees with no TARGET_OTA_ASSERT_DEVICE
+* 7c93b44 ota_from_target_files: Remove device dependent arguments
+* 9b1da12 releasetools: support reading release keys out of some sort of command
+* 1f79d0d releasetools: Add script to sign zips
+* 5caf64b build: Warn about prebuilt apk in PRODUCT_COPY_FILES
+* 1183ccd build: Disable check for blocking prebuilt apk in PRODUCT_COPY_FILES
+* 7d48599 build sign_target_files_apks.py: clean tmp on exit
+* 47de313 Revert "build: Enable custom ccache cache dir for Android"
+* 18ebbb6 core: move platform-specific helper macros to target makefiles
+* c2dcf4b build: Replace pushd with cd
+*   c3d7caf Merge tag 'android-7.1.1_r9' of https://android.googlesource.com/platform/build into cm-14.1
