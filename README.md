@@ -1,1 +1,0 @@
-Our graphics only :p
