@@ -52,7 +52,7 @@ Reboot and enjoy the power of AOS !
 [CENTER][FONT="Comic Sans MS"][SIZE="5"]
 [IMG="GIT"]https://raw.githubusercontent.com/DarkNess-reDefined/reDefinition_documentation/graphics/aos_credits.png[/IMG]
 [SIZE=3]
-[B]LineageOS (Base)
+[B]AOSP-JDC (Base)
 Resurrection Remix (RR)
 Slim Roms Team
 ParanoidAndroid Team
