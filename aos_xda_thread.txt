@@ -1,56 +1,63 @@
 Thread Title : [ROM][OFFICIAL] Atomic-OS [OMS/DUI]
 
 [CENTER][IMG]http://i.imgur.com/0vPTOlW.gif[/IMG]
+
 [B][SIZE=5][CENTER]A Team-Darkness Project [/CENTER]
+
 [URL="https://plus.google.com/u/0/communities/102951559675870137271"]Our G+ Page [/URL]
 [URL="https://telegram.me/DNDofficial"]Our official telegram group[/URL][/CENTER]
 [/SIZE][/B]
 [CENTER]
 [IMG]https://raw.githubusercontent.com/DarkNess-reDefined/reDefinition_documentation/graphics/aos_about%20us.png[/IMG]
+
 Atomic OS is beautifully crafted AOSP based ROM for AOSP lovers. 
 Atomic comes packed with all essential features like Substratum theme engine, Fling, Pulse, Battery and Clock customizations etc.
 It's updated regularly to maintain all the necessities.
 You can follow our code at [URL="http://www.github.com/Atomic-OS"]github.com/Atomic-OS[/URL]
 [/CENTER]
+
 [CENTER]
 [IMG]https://raw.githubusercontent.com/DarkNess-reDefined/reDefinition_documentation/graphics/aos_features.png[/IMG]
 
 [SIZE="5"][B]Status Bar[/B][/SIZE]
-[SIZE="3"][HIDE]
+[SIZE="3"][CODE]
 Statusbar Items
 Battery
 Quick Settings
 Clock and Battery Adjustment
 Carrier Label
-[/HIDE][/SIZE]
+[/CODE][/SIZE]
 [SIZE="5"][B]Navigation[/B][/SIZE]
-[SIZE="3"][HIDE]
+[SIZE="3"][CODE]
 Navigation bar [DUI]
 Button Settings
-[/HIDE][/SIZE]
+[/CODE][/SIZE]
 [SIZE="5"][B]Lockscreen[/B][/SIZE]
-[SIZE="3"][HIDE]
+[SIZE="3"][CODE]
 Lockscreen Shortcuts
 Double tap to sleep anywhere
 Lockscreen torch
 Power Menu (Lock screen)
-[/HIDE][/SIZE]
+[/CODE][/SIZE]
 [SIZE="5"][B]Panels[/B][/SIZE]
-[HIDE][SIZE="3"]Recent Panel[Immersive Recents][/SIZE][/HIDE]
+[CODE][SIZE="3"]Recent Panel[Immersive Recents][/SIZE][/CODE]
 [IMG]https://raw.githubusercontent.com/DarkNess-reDefined/reDefinition_documentation/graphics/aos_downloads.png[/IMG]
 
 
 [IMG]https://raw.githubusercontent.com/DarkNess-reDefined/reDefinition_documentation/graphics/aos_instructions.png[/IMG]
 [SIZE="2"][I]
-Download the ROM and [URL='http://opengapps.org/'][B]Gapps[/B][/URL]
+
+[CODE]Download the ROM and [URL='http://opengapps.org/'][B]Gapps[/B][/URL]
 Boot into recovery mode
 Wipe System/Data/Dalvik Cache/Cache
 Flash [B]ROM[/B] and [B]Gapps[/B] zip file
 Reboot and enjoy the power of AOS !
-[/I][/SIZE]
+[/CODE][/I][/SIZE]
 [/CENTER]
+
 [CENTER][FONT="Comic Sans MS"][SIZE="5"]
 [IMG="GIT"]https://raw.githubusercontent.com/DarkNess-reDefined/reDefinition_documentation/graphics/aos_credits.png[/IMG]
+
 [SIZE=3]
 [B]AOSP-JDC (Base)
 Resurrection Remix (RR)
@@ -69,3 +76,22 @@ AOKP[/B][/SIZE][/FONT][/CENTER]
 [MENTION=6859839]kishpatel[/MENTION]
 [MENTION=7526018]warlord_rk[/MENTION]
 [MENTION=6800596]TheDarkStrix[/MENTION][/SIZE][/FONT][/CENTER][/B]
+
+[SIZE="4"][CENTER][B]Some common questions ![/B][/CENTER][/SIZE] 
+
+[CENTER][CODE]
+-Base Of the ROM & Version? 
+->Rom is based on AOSP CAF 
+-Does this ROM Support Substratum/CMTE? 
+->Yes, full Substratum support! 
+-Which Gapps are recommended? 
+->OpenGapps or ->BeansGApps 
+-Will this ROM relock the bootloader? 
+->No. 
+-I am facing FCs, Bugs, Some feature is broken? 
+->Provide full info about your problem with logcats and the procedure to reproduce it. 
+->How to take Logcats? [URL="http://telegra.ph/HOW-TO-TAKE-LOGS-06-11"]Click Here[/URL] 
+-SElinux Linux mode changer app is not working nor Busy Box installer app is working. 
+->Everything is good with the sources. You should try other things first and then contact your maintainer. 
+-I want to contribute to the development of this ROM. 
+->[URL="https://plus.google.com/u/0/communities/102951559675870137271/"]Join our Google+ community[/URL] ->[URL="https://t.me/DNDofficial"]Join our Telegram group chat[/URL][/CODE][/CENTER]
